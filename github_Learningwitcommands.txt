@@ -1,0 +1,89 @@
+GIT Installation :
+ 
+git-scm.com ( download latest and install as default by checking next...)
+
+git --version ( To check the version)
+
+git config --global user.name "mounica" 
+
+git config --global user.email "mounicatangirala@gmail.com"
+
+pwd ( print working directory)
+
+mkdir "hello-world"
+
+# create Repository using "git init"
+
+git init ( initialized empty git repository in path)
+
+touch index.html ( touch filename - creates file)
+
+git status ( changes made)
+
+#git add filename ( git add -A for all files at once)
+git add index.html ( staging before commit)
+
+git commit -m message ( commit is like a snapshot - used to restore files to lastest version before changes made using checkout -- )
+
+git checkout -- . ( restore)
+
+
+copy existing repo from server to local machine
+git clone https://github.com/LearnWebCode/welcome-to-git.git 
+# git clone URL to copy server to local machine
+
+
+overview : 
+1. created a git hub account 
+2. created a new empty repo on github's server
+3. pushed our git starter files to server
+
+create a repo on our local HDD and push to server
+
+git remote -v ( shows the origin)
+git remote set-url origin *your url.git  ( set the origin location)
+git remote -v
+git push origin master # master is branch
+if changes or modifications
+git status
+git add -A ( stage)
+git commit -m comments/message
+git push origin master
+
+overview : 
+why not html , css , javascript ? 
+because these cant provide automation at full pledged level.
+no auto prefetch 
+no autorefresh 
+
+we use Node.js and NPM to automate.
+
+so what & why node.js?
+install node
+hands-on demo
+
+Javascript vs node.js
+javascript : used for web browser tasks like open windows , without refresh adding content etc..,
+Node.js : used for server tasks like accessing file system , interacts with Database , sends an automatic email.
+
+********** Node ************
+
+node -v  ( To check the version)
+
+install Node product manager using npm install touch-cli -g ( to make touch commands working.)
+
+touch "filename.js"
+Ex: touch "test.js"
+
+console.log ("message");  ----- used to print the message.
+console.log( 2 + 2);
+
+
+
+
+
+
+
+
+
+
